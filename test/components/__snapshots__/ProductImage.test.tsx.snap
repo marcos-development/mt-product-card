@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ProductImage Debe comprobar que existe la imagen 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Coffee Mug"
+    className="productImg "
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`Pruebas en ProductImage Debe de cargarse correctamente 1`] = `
+<img
+  alt="Coffee Mug"
+  className="productImg custom-class"
+  src="http://hola.jpg"
+/>
+`;
